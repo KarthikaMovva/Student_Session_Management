@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Submission Notes
 
-## Getting Started
+## State Management and Data Fetching Approach
 
-First, run the development server:
+The application uses React Query for managing server-side data because session information is fetched from an external API source. React Query provides built-in caching, request lifecycle management, loading states, error handling, and automatic refetching capabilities. This keeps API-related logic separate from UI components and avoids manually managing asynchronous state.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+For local UI state such as selected student filters and date ranges, React's built-in useState hook is sufficient because these values are temporary and only affect the current dashboard view. A global state-management library was not introduced because the application does not contain complex client-side shared state.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Simplifications Due to Time Constraints
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project uses JSON Server as a mock API instead of building a complete backend because the project focuses primarily on frontend engineering skills such as UI development, state management, data fetching, filtering, routing, and visualization. A production backend would add complexity around database design, authentication, APIs, and deployment, which are outside the main evaluation scope.
 
-## Learn More
+Authentication is implemented as a simple mock authentication flow instead of a complete token-based authentication system because the goal was to demonstrate route protection and user flow. A production implementation would require secure authentication, session management, password handling, and authorization rules.
 
-To learn more about Next.js, take a look at the following resources:
+Pagination, advanced filtering, and extensive testing were simplified because the mock dataset size was small and the project focuses on demonstrating functionality rather than optimizing for large-scale data. These features would become important when handling thousands of sessions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The chart implementation focuses only on the required session metrics over time because the project specifically required visualization of evaluation metrics. Additional analytics such as cross-session comparisons, trend analysis, exporting reports, and advanced dashboards were not included to keep the implementation focused and deliver the core requirements within the given time frame.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Scaling to 10,000 Sessions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For handling 10,000 sessions, the current client-side filtering approach would need improvement.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application should move filtering, sorting, and pagination responsibilities to the backend API. The API should support query parameters such as student, date range, page number, and page size.
+
+The frontend would use server-side pagination with React Query to fetch only the required data instead of loading all sessions into memory.
+
+Additional improvements would include database indexing on frequently searched fields, API caching, virtualized tables for large datasets, and optimized chart data aggregation. Technologies such as TanStack Table virtualization or server-side analytics processing could be introduced for better performance.

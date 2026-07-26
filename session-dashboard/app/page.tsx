@@ -1,33 +1,14 @@
 "use client";
 
-import { useSessions } from "@/hooks/useSessions";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const { data, isLoading, error } = useSessions();
+  const router = useRouter();
 
-  if (isLoading) {
-    return <div className="p-8">Loading sessions...</div>;
-  }
+  useEffect(() => {
+    router.replace("/login");
+  }, [router]);
 
-  if (error) {
-    return <div className="p-8">Something went wrong.</div>;
-  }
-
-  return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold mb-6">
-        Session Dashboard
-      </h1>
-
-      <p>Total Sessions: {data?.length}</p>
-
-      <ul className="mt-6 space-y-2">
-        {data?.map((session) => (
-          <li key={session.id}>
-            {session.student} — {session.date}
-          </li>
-        ))}
-      </ul>
-    </main>
-  );
+  return null;
 }

@@ -6,9 +6,18 @@ import StatCard from "@/components/common/StatCard";
 import SessionsTable from "@/components/session/SessionsTable";
 
 import { useSessions } from "@/hooks/useSessions";
+import { useState } from "react";
+import SessionFilters from "@/components/session/SessionFilters";
+import EmptyState from "@/components/common/EmptyState";
 
 
 export default function DashboardPage() {
+
+    const [selectedStudent, setSelectedStudent] = useState("all");
+
+    const [fromDate, setFromDate] = useState<Date>();
+
+    const [toDate, setToDate] = useState<Date>();
 
 
     const {
@@ -16,6 +25,36 @@ export default function DashboardPage() {
         isLoading,
         error,
     } = useSessions();
+
+    const students = Array.from(
+        new Set(
+            sessions?.map(
+                (session) => session.student
+            )
+        )
+    );
+
+    const filteredSessions = sessions?.filter((session) => {
+        const matchesStudent =
+            selectedStudent === "all" ||
+            session.student === selectedStudent;
+
+        const sessionDate = new Date(session.date);
+
+        const matchesFrom =
+            !fromDate ||
+            sessionDate >= fromDate;
+
+        const matchesTo =
+            !toDate ||
+            sessionDate <= toDate;
+
+        return (
+            matchesStudent &&
+            matchesFrom &&
+            matchesTo
+        );
+    });
 
 
 
@@ -51,7 +90,6 @@ export default function DashboardPage() {
 
         <AuthGuard>
             <DashboardLayout>
-
                 <div className="space-y-6">
                     <div>
                         <h2 className="text-3xl font-bold">
@@ -94,17 +132,28 @@ export default function DashboardPage() {
                         />
                     </div>
 
-
-
-                    <div>
-                        <h3 className="mb-4 text-xl font-semibold">
+                    <div className="space-y-4">
+                        <h3 className="text-xl font-semibold">
                             Sessions
                         </h3>
-                        {sessions && (
+                        <SessionFilters
+                            students={students}
+                            selectedStudent={selectedStudent}
+                            setSelectedStudent={setSelectedStudent}
+                            fromDate={fromDate}
+                            setFromDate={setFromDate}
+                            toDate={toDate}
+                            setToDate={setToDate}
+                        />
+                        {filteredSessions &&
+                            filteredSessions.length > 0 ? (
                             <SessionsTable
-                                sessions={sessions}
+                                sessions={filteredSessions ?? []}
                             />
-                        )}
+                        ) : (
+                            <EmptyState />
+                        )
+                        }
                     </div>
                 </div>
             </DashboardLayout>

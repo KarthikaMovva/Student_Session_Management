@@ -73,16 +73,28 @@ export default function SessionFilters({
             </Select>
 
             <Popover>
-                <PopoverTrigger asChild>
-                    <Button
-                        variant="outline"
-                        className="w-full md:w-[220px]"
+                <PopoverTrigger>
+                    <div
+                        className="
+                        flex
+                        h-8
+                        w-full
+                        md:w-[220px]
+                        items-center
+                        rounded-lg
+                        border
+                        px-3
+                        text-sm
+                        cursor-pointer
+                        bg-background
+                        hover:bg-muted
+                        "
                     >
                         {fromDate
                             ? format(fromDate, "PPP")
                             : "From date"
                         }
-                    </Button>
+                    </div>
                 </PopoverTrigger>
 
 
@@ -98,16 +110,25 @@ export default function SessionFilters({
 
             <Popover>
 
-                <PopoverTrigger asChild>
-                    <Button
-                        variant="outline"
-                        className="w-full md:w-[220px]"
-                    >
+                <PopoverTrigger>
+                    <div
+                        className="
+                        flex
+                        h-8
+                        w-full
+                        md:w-[220px]
+                        items-center
+                        rounded-lg
+                        border
+                        px-3
+                        text-sm
+                        cursor-pointer
+                        bg-background
+                        hover:bg-muted">
                         {toDate
                             ? format(toDate, "PPP")
-                            : "To date"
-                        }
-                    </Button>
+                            : "To date"}
+                    </div>
                 </PopoverTrigger>
 
                 <PopoverContent>

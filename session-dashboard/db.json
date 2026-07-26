@@ -1,984 +1,984 @@
 {
-  "sessions": [
-    {
-      "id": 1,
-      "student": "Bob Smith",
-      "date": "2026-07-02",
-      "metrics": [
+    "sessions": [
         {
-          "time": "09:00",
-          "engagement": 75,
-          "clarity": 66,
-          "pacing": 78
+            "id": 1,
+            "student": "Bob Smith",
+            "date": "2026-07-02",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 75,
+                    "clarity": 66,
+                    "pacing": 78
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 100,
+                    "clarity": 81,
+                    "pacing": 95
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 98,
+                    "clarity": 74,
+                    "pacing": 91
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 71,
+                    "clarity": 83,
+                    "pacing": 94
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 81,
+                    "clarity": 75,
+                    "pacing": 87
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 85,
+                    "clarity": 78,
+                    "pacing": 99
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 96,
+                    "clarity": 68,
+                    "pacing": 75
+                }
+            ]
         },
         {
-          "time": "09:10",
-          "engagement": 100,
-          "clarity": 81,
-          "pacing": 95
+            "id": 2,
+            "student": "Charlie Brown",
+            "date": "2026-07-03",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 95,
+                    "clarity": 94,
+                    "pacing": 81
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 75,
+                    "clarity": 75,
+                    "pacing": 85
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 75,
+                    "clarity": 95,
+                    "pacing": 76
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 93,
+                    "clarity": 80,
+                    "pacing": 90
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 95,
+                    "clarity": 89,
+                    "pacing": 98
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 99,
+                    "clarity": 70,
+                    "pacing": 82
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 89,
+                    "clarity": 67,
+                    "pacing": 75
+                }
+            ]
         },
         {
-          "time": "09:20",
-          "engagement": 98,
-          "clarity": 74,
-          "pacing": 91
+            "id": 3,
+            "student": "David Wilson",
+            "date": "2026-07-04",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 83,
+                    "clarity": 88,
+                    "pacing": 88
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 76,
+                    "clarity": 76,
+                    "pacing": 83
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 79,
+                    "clarity": 71,
+                    "pacing": 78
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 82,
+                    "clarity": 85,
+                    "pacing": 100
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 87,
+                    "clarity": 82,
+                    "pacing": 77
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 93,
+                    "clarity": 74,
+                    "pacing": 79
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 85,
+                    "clarity": 75,
+                    "pacing": 100
+                }
+            ]
         },
         {
-          "time": "09:30",
-          "engagement": 71,
-          "clarity": 83,
-          "pacing": 94
+            "id": 4,
+            "student": "Emma Thomas",
+            "date": "2026-07-05",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 78,
+                    "clarity": 66,
+                    "pacing": 97
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 79,
+                    "clarity": 74,
+                    "pacing": 85
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 70,
+                    "clarity": 92,
+                    "pacing": 85
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 92,
+                    "clarity": 68,
+                    "pacing": 78
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 78,
+                    "clarity": 74,
+                    "pacing": 92
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 100,
+                    "clarity": 73,
+                    "pacing": 94
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 75,
+                    "clarity": 93,
+                    "pacing": 78
+                }
+            ]
         },
         {
-          "time": "09:40",
-          "engagement": 81,
-          "clarity": 75,
-          "pacing": 87
+            "id": 5,
+            "student": "Sophia Miller",
+            "date": "2026-07-06",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 90,
+                    "clarity": 75,
+                    "pacing": 88
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 84,
+                    "clarity": 83,
+                    "pacing": 89
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 79,
+                    "clarity": 93,
+                    "pacing": 97
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 86,
+                    "clarity": 85,
+                    "pacing": 93
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 81,
+                    "clarity": 85,
+                    "pacing": 94
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 87,
+                    "clarity": 88,
+                    "pacing": 100
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 84,
+                    "clarity": 88,
+                    "pacing": 76
+                }
+            ]
         },
         {
-          "time": "09:50",
-          "engagement": 85,
-          "clarity": 78,
-          "pacing": 99
+            "id": 6,
+            "student": "Alice Johnson",
+            "date": "2026-07-07",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 79,
+                    "clarity": 94,
+                    "pacing": 83
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 79,
+                    "clarity": 94,
+                    "pacing": 87
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 100,
+                    "clarity": 69,
+                    "pacing": 88
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 96,
+                    "clarity": 79,
+                    "pacing": 84
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 97,
+                    "clarity": 82,
+                    "pacing": 92
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 80,
+                    "clarity": 66,
+                    "pacing": 90
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 87,
+                    "clarity": 70,
+                    "pacing": 97
+                }
+            ]
         },
         {
-          "time": "09:60",
-          "engagement": 96,
-          "clarity": 68,
-          "pacing": 75
+            "id": 7,
+            "student": "Bob Smith",
+            "date": "2026-07-08",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 82,
+                    "clarity": 89,
+                    "pacing": 95
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 83,
+                    "clarity": 77,
+                    "pacing": 79
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 92,
+                    "clarity": 67,
+                    "pacing": 93
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 90,
+                    "clarity": 73,
+                    "pacing": 91
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 78,
+                    "clarity": 74,
+                    "pacing": 96
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 77,
+                    "clarity": 93,
+                    "pacing": 91
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 85,
+                    "clarity": 80,
+                    "pacing": 87
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "student": "Charlie Brown",
+            "date": "2026-07-09",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 82,
+                    "clarity": 68,
+                    "pacing": 78
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 96,
+                    "clarity": 95,
+                    "pacing": 82
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 94,
+                    "clarity": 83,
+                    "pacing": 90
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 87,
+                    "clarity": 85,
+                    "pacing": 80
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 91,
+                    "clarity": 71,
+                    "pacing": 89
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 95,
+                    "clarity": 80,
+                    "pacing": 95
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 84,
+                    "clarity": 94,
+                    "pacing": 81
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "student": "David Wilson",
+            "date": "2026-07-10",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 82,
+                    "clarity": 77,
+                    "pacing": 100
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 94,
+                    "clarity": 89,
+                    "pacing": 88
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 98,
+                    "clarity": 87,
+                    "pacing": 76
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 97,
+                    "clarity": 82,
+                    "pacing": 96
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 74,
+                    "clarity": 91,
+                    "pacing": 86
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 98,
+                    "clarity": 89,
+                    "pacing": 84
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 99,
+                    "clarity": 82,
+                    "pacing": 82
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "student": "Emma Thomas",
+            "date": "2026-07-11",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 84,
+                    "clarity": 90,
+                    "pacing": 88
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 99,
+                    "clarity": 94,
+                    "pacing": 91
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 73,
+                    "clarity": 91,
+                    "pacing": 89
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 97,
+                    "clarity": 94,
+                    "pacing": 90
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 98,
+                    "clarity": 93,
+                    "pacing": 83
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 92,
+                    "clarity": 82,
+                    "pacing": 77
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 78,
+                    "clarity": 72,
+                    "pacing": 98
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "student": "Sophia Miller",
+            "date": "2026-07-12",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 92,
+                    "clarity": 94,
+                    "pacing": 90
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 81,
+                    "clarity": 65,
+                    "pacing": 94
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 91,
+                    "clarity": 78,
+                    "pacing": 79
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 83,
+                    "clarity": 65,
+                    "pacing": 77
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 89,
+                    "clarity": 95,
+                    "pacing": 84
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 73,
+                    "clarity": 77,
+                    "pacing": 90
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 92,
+                    "clarity": 83,
+                    "pacing": 95
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "student": "Alice Johnson",
+            "date": "2026-07-13",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 88,
+                    "clarity": 74,
+                    "pacing": 81
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 86,
+                    "clarity": 76,
+                    "pacing": 88
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 75,
+                    "clarity": 95,
+                    "pacing": 88
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 74,
+                    "clarity": 65,
+                    "pacing": 76
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 80,
+                    "clarity": 83,
+                    "pacing": 100
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 92,
+                    "clarity": 70,
+                    "pacing": 81
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 82,
+                    "clarity": 73,
+                    "pacing": 82
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "student": "Bob Smith",
+            "date": "2026-07-14",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 83,
+                    "clarity": 80,
+                    "pacing": 100
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 90,
+                    "clarity": 68,
+                    "pacing": 89
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 76,
+                    "clarity": 76,
+                    "pacing": 98
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 80,
+                    "clarity": 74,
+                    "pacing": 81
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 84,
+                    "clarity": 74,
+                    "pacing": 84
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 84,
+                    "clarity": 87,
+                    "pacing": 75
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 87,
+                    "clarity": 77,
+                    "pacing": 99
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "student": "Charlie Brown",
+            "date": "2026-07-15",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 79,
+                    "clarity": 69,
+                    "pacing": 79
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 96,
+                    "clarity": 75,
+                    "pacing": 85
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 74,
+                    "clarity": 85,
+                    "pacing": 95
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 75,
+                    "clarity": 72,
+                    "pacing": 91
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 87,
+                    "clarity": 69,
+                    "pacing": 92
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 88,
+                    "clarity": 77,
+                    "pacing": 79
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 84,
+                    "clarity": 80,
+                    "pacing": 99
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "student": "David Wilson",
+            "date": "2026-07-16",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 82,
+                    "clarity": 66,
+                    "pacing": 91
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 100,
+                    "clarity": 65,
+                    "pacing": 99
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 72,
+                    "clarity": 65,
+                    "pacing": 92
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 90,
+                    "clarity": 78,
+                    "pacing": 96
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 99,
+                    "clarity": 82,
+                    "pacing": 92
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 89,
+                    "clarity": 86,
+                    "pacing": 76
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 76,
+                    "clarity": 79,
+                    "pacing": 93
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "student": "Emma Thomas",
+            "date": "2026-07-17",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 77,
+                    "clarity": 76,
+                    "pacing": 94
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 73,
+                    "clarity": 90,
+                    "pacing": 85
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 88,
+                    "clarity": 70,
+                    "pacing": 85
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 99,
+                    "clarity": 73,
+                    "pacing": 87
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 80,
+                    "clarity": 70,
+                    "pacing": 89
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 85,
+                    "clarity": 69,
+                    "pacing": 76
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 98,
+                    "clarity": 79,
+                    "pacing": 77
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "student": "Sophia Miller",
+            "date": "2026-07-18",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 98,
+                    "clarity": 70,
+                    "pacing": 79
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 75,
+                    "clarity": 67,
+                    "pacing": 77
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 74,
+                    "clarity": 90,
+                    "pacing": 90
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 95,
+                    "clarity": 74,
+                    "pacing": 78
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 98,
+                    "clarity": 87,
+                    "pacing": 76
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 81,
+                    "clarity": 89,
+                    "pacing": 100
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 94,
+                    "clarity": 65,
+                    "pacing": 83
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "student": "Alice Johnson",
+            "date": "2026-07-19",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 96,
+                    "clarity": 92,
+                    "pacing": 75
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 70,
+                    "clarity": 72,
+                    "pacing": 96
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 96,
+                    "clarity": 77,
+                    "pacing": 91
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 99,
+                    "clarity": 71,
+                    "pacing": 78
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 76,
+                    "clarity": 75,
+                    "pacing": 97
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 97,
+                    "clarity": 90,
+                    "pacing": 95
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 100,
+                    "clarity": 66,
+                    "pacing": 85
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "student": "Bob Smith",
+            "date": "2026-07-20",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 70,
+                    "clarity": 71,
+                    "pacing": 79
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 89,
+                    "clarity": 69,
+                    "pacing": 80
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 93,
+                    "clarity": 75,
+                    "pacing": 94
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 91,
+                    "clarity": 75,
+                    "pacing": 98
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 82,
+                    "clarity": 87,
+                    "pacing": 90
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 76,
+                    "clarity": 92,
+                    "pacing": 80
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 79,
+                    "clarity": 88,
+                    "pacing": 75
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "student": "Charlie Brown",
+            "date": "2026-07-01",
+            "metrics": [
+                {
+                    "time": "09:00",
+                    "engagement": 72,
+                    "clarity": 91,
+                    "pacing": 76
+                },
+                {
+                    "time": "09:10",
+                    "engagement": 99,
+                    "clarity": 76,
+                    "pacing": 80
+                },
+                {
+                    "time": "09:20",
+                    "engagement": 83,
+                    "clarity": 95,
+                    "pacing": 89
+                },
+                {
+                    "time": "09:30",
+                    "engagement": 78,
+                    "clarity": 80,
+                    "pacing": 75
+                },
+                {
+                    "time": "09:40",
+                    "engagement": 82,
+                    "clarity": 76,
+                    "pacing": 77
+                },
+                {
+                    "time": "09:50",
+                    "engagement": 81,
+                    "clarity": 72,
+                    "pacing": 77
+                },
+                {
+                    "time": "10:00",
+                    "engagement": 76,
+                    "clarity": 95,
+                    "pacing": 94
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 2,
-      "student": "Charlie Brown",
-      "date": "2026-07-03",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 95,
-          "clarity": 94,
-          "pacing": 81
-        },
-        {
-          "time": "09:10",
-          "engagement": 75,
-          "clarity": 75,
-          "pacing": 85
-        },
-        {
-          "time": "09:20",
-          "engagement": 75,
-          "clarity": 95,
-          "pacing": 76
-        },
-        {
-          "time": "09:30",
-          "engagement": 93,
-          "clarity": 80,
-          "pacing": 90
-        },
-        {
-          "time": "09:40",
-          "engagement": 95,
-          "clarity": 89,
-          "pacing": 98
-        },
-        {
-          "time": "09:50",
-          "engagement": 99,
-          "clarity": 70,
-          "pacing": 82
-        },
-        {
-          "time": "09:60",
-          "engagement": 89,
-          "clarity": 67,
-          "pacing": 75
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "student": "David Wilson",
-      "date": "2026-07-04",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 83,
-          "clarity": 88,
-          "pacing": 88
-        },
-        {
-          "time": "09:10",
-          "engagement": 76,
-          "clarity": 76,
-          "pacing": 83
-        },
-        {
-          "time": "09:20",
-          "engagement": 79,
-          "clarity": 71,
-          "pacing": 78
-        },
-        {
-          "time": "09:30",
-          "engagement": 82,
-          "clarity": 85,
-          "pacing": 100
-        },
-        {
-          "time": "09:40",
-          "engagement": 87,
-          "clarity": 82,
-          "pacing": 77
-        },
-        {
-          "time": "09:50",
-          "engagement": 93,
-          "clarity": 74,
-          "pacing": 79
-        },
-        {
-          "time": "09:60",
-          "engagement": 85,
-          "clarity": 75,
-          "pacing": 100
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "student": "Emma Thomas",
-      "date": "2026-07-05",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 78,
-          "clarity": 66,
-          "pacing": 97
-        },
-        {
-          "time": "09:10",
-          "engagement": 79,
-          "clarity": 74,
-          "pacing": 85
-        },
-        {
-          "time": "09:20",
-          "engagement": 70,
-          "clarity": 92,
-          "pacing": 85
-        },
-        {
-          "time": "09:30",
-          "engagement": 92,
-          "clarity": 68,
-          "pacing": 78
-        },
-        {
-          "time": "09:40",
-          "engagement": 78,
-          "clarity": 74,
-          "pacing": 92
-        },
-        {
-          "time": "09:50",
-          "engagement": 100,
-          "clarity": 73,
-          "pacing": 94
-        },
-        {
-          "time": "09:60",
-          "engagement": 75,
-          "clarity": 93,
-          "pacing": 78
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "student": "Sophia Miller",
-      "date": "2026-07-06",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 90,
-          "clarity": 75,
-          "pacing": 88
-        },
-        {
-          "time": "09:10",
-          "engagement": 84,
-          "clarity": 83,
-          "pacing": 89
-        },
-        {
-          "time": "09:20",
-          "engagement": 79,
-          "clarity": 93,
-          "pacing": 97
-        },
-        {
-          "time": "09:30",
-          "engagement": 86,
-          "clarity": 85,
-          "pacing": 93
-        },
-        {
-          "time": "09:40",
-          "engagement": 81,
-          "clarity": 85,
-          "pacing": 94
-        },
-        {
-          "time": "09:50",
-          "engagement": 87,
-          "clarity": 88,
-          "pacing": 100
-        },
-        {
-          "time": "09:60",
-          "engagement": 84,
-          "clarity": 88,
-          "pacing": 76
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "student": "Alice Johnson",
-      "date": "2026-07-07",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 79,
-          "clarity": 94,
-          "pacing": 83
-        },
-        {
-          "time": "09:10",
-          "engagement": 79,
-          "clarity": 94,
-          "pacing": 87
-        },
-        {
-          "time": "09:20",
-          "engagement": 100,
-          "clarity": 69,
-          "pacing": 88
-        },
-        {
-          "time": "09:30",
-          "engagement": 96,
-          "clarity": 79,
-          "pacing": 84
-        },
-        {
-          "time": "09:40",
-          "engagement": 97,
-          "clarity": 82,
-          "pacing": 92
-        },
-        {
-          "time": "09:50",
-          "engagement": 80,
-          "clarity": 66,
-          "pacing": 90
-        },
-        {
-          "time": "09:60",
-          "engagement": 87,
-          "clarity": 70,
-          "pacing": 97
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "student": "Bob Smith",
-      "date": "2026-07-08",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 82,
-          "clarity": 89,
-          "pacing": 95
-        },
-        {
-          "time": "09:10",
-          "engagement": 83,
-          "clarity": 77,
-          "pacing": 79
-        },
-        {
-          "time": "09:20",
-          "engagement": 92,
-          "clarity": 67,
-          "pacing": 93
-        },
-        {
-          "time": "09:30",
-          "engagement": 90,
-          "clarity": 73,
-          "pacing": 91
-        },
-        {
-          "time": "09:40",
-          "engagement": 78,
-          "clarity": 74,
-          "pacing": 96
-        },
-        {
-          "time": "09:50",
-          "engagement": 77,
-          "clarity": 93,
-          "pacing": 91
-        },
-        {
-          "time": "09:60",
-          "engagement": 85,
-          "clarity": 80,
-          "pacing": 87
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "student": "Charlie Brown",
-      "date": "2026-07-09",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 82,
-          "clarity": 68,
-          "pacing": 78
-        },
-        {
-          "time": "09:10",
-          "engagement": 96,
-          "clarity": 95,
-          "pacing": 82
-        },
-        {
-          "time": "09:20",
-          "engagement": 94,
-          "clarity": 83,
-          "pacing": 90
-        },
-        {
-          "time": "09:30",
-          "engagement": 87,
-          "clarity": 85,
-          "pacing": 80
-        },
-        {
-          "time": "09:40",
-          "engagement": 91,
-          "clarity": 71,
-          "pacing": 89
-        },
-        {
-          "time": "09:50",
-          "engagement": 95,
-          "clarity": 80,
-          "pacing": 95
-        },
-        {
-          "time": "09:60",
-          "engagement": 84,
-          "clarity": 94,
-          "pacing": 81
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "student": "David Wilson",
-      "date": "2026-07-10",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 82,
-          "clarity": 77,
-          "pacing": 100
-        },
-        {
-          "time": "09:10",
-          "engagement": 94,
-          "clarity": 89,
-          "pacing": 88
-        },
-        {
-          "time": "09:20",
-          "engagement": 98,
-          "clarity": 87,
-          "pacing": 76
-        },
-        {
-          "time": "09:30",
-          "engagement": 97,
-          "clarity": 82,
-          "pacing": 96
-        },
-        {
-          "time": "09:40",
-          "engagement": 74,
-          "clarity": 91,
-          "pacing": 86
-        },
-        {
-          "time": "09:50",
-          "engagement": 98,
-          "clarity": 89,
-          "pacing": 84
-        },
-        {
-          "time": "09:60",
-          "engagement": 99,
-          "clarity": 82,
-          "pacing": 82
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "student": "Emma Thomas",
-      "date": "2026-07-11",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 84,
-          "clarity": 90,
-          "pacing": 88
-        },
-        {
-          "time": "09:10",
-          "engagement": 99,
-          "clarity": 94,
-          "pacing": 91
-        },
-        {
-          "time": "09:20",
-          "engagement": 73,
-          "clarity": 91,
-          "pacing": 89
-        },
-        {
-          "time": "09:30",
-          "engagement": 97,
-          "clarity": 94,
-          "pacing": 90
-        },
-        {
-          "time": "09:40",
-          "engagement": 98,
-          "clarity": 93,
-          "pacing": 83
-        },
-        {
-          "time": "09:50",
-          "engagement": 92,
-          "clarity": 82,
-          "pacing": 77
-        },
-        {
-          "time": "09:60",
-          "engagement": 78,
-          "clarity": 72,
-          "pacing": 98
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "student": "Sophia Miller",
-      "date": "2026-07-12",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 92,
-          "clarity": 94,
-          "pacing": 90
-        },
-        {
-          "time": "09:10",
-          "engagement": 81,
-          "clarity": 65,
-          "pacing": 94
-        },
-        {
-          "time": "09:20",
-          "engagement": 91,
-          "clarity": 78,
-          "pacing": 79
-        },
-        {
-          "time": "09:30",
-          "engagement": 83,
-          "clarity": 65,
-          "pacing": 77
-        },
-        {
-          "time": "09:40",
-          "engagement": 89,
-          "clarity": 95,
-          "pacing": 84
-        },
-        {
-          "time": "09:50",
-          "engagement": 73,
-          "clarity": 77,
-          "pacing": 90
-        },
-        {
-          "time": "09:60",
-          "engagement": 92,
-          "clarity": 83,
-          "pacing": 95
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "student": "Alice Johnson",
-      "date": "2026-07-13",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 88,
-          "clarity": 74,
-          "pacing": 81
-        },
-        {
-          "time": "09:10",
-          "engagement": 86,
-          "clarity": 76,
-          "pacing": 88
-        },
-        {
-          "time": "09:20",
-          "engagement": 75,
-          "clarity": 95,
-          "pacing": 88
-        },
-        {
-          "time": "09:30",
-          "engagement": 74,
-          "clarity": 65,
-          "pacing": 76
-        },
-        {
-          "time": "09:40",
-          "engagement": 80,
-          "clarity": 83,
-          "pacing": 100
-        },
-        {
-          "time": "09:50",
-          "engagement": 92,
-          "clarity": 70,
-          "pacing": 81
-        },
-        {
-          "time": "09:60",
-          "engagement": 82,
-          "clarity": 73,
-          "pacing": 82
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "student": "Bob Smith",
-      "date": "2026-07-14",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 83,
-          "clarity": 80,
-          "pacing": 100
-        },
-        {
-          "time": "09:10",
-          "engagement": 90,
-          "clarity": 68,
-          "pacing": 89
-        },
-        {
-          "time": "09:20",
-          "engagement": 76,
-          "clarity": 76,
-          "pacing": 98
-        },
-        {
-          "time": "09:30",
-          "engagement": 80,
-          "clarity": 74,
-          "pacing": 81
-        },
-        {
-          "time": "09:40",
-          "engagement": 84,
-          "clarity": 74,
-          "pacing": 84
-        },
-        {
-          "time": "09:50",
-          "engagement": 84,
-          "clarity": 87,
-          "pacing": 75
-        },
-        {
-          "time": "09:60",
-          "engagement": 87,
-          "clarity": 77,
-          "pacing": 99
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "student": "Charlie Brown",
-      "date": "2026-07-15",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 79,
-          "clarity": 69,
-          "pacing": 79
-        },
-        {
-          "time": "09:10",
-          "engagement": 96,
-          "clarity": 75,
-          "pacing": 85
-        },
-        {
-          "time": "09:20",
-          "engagement": 74,
-          "clarity": 85,
-          "pacing": 95
-        },
-        {
-          "time": "09:30",
-          "engagement": 75,
-          "clarity": 72,
-          "pacing": 91
-        },
-        {
-          "time": "09:40",
-          "engagement": 87,
-          "clarity": 69,
-          "pacing": 92
-        },
-        {
-          "time": "09:50",
-          "engagement": 88,
-          "clarity": 77,
-          "pacing": 79
-        },
-        {
-          "time": "09:60",
-          "engagement": 84,
-          "clarity": 80,
-          "pacing": 99
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "student": "David Wilson",
-      "date": "2026-07-16",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 82,
-          "clarity": 66,
-          "pacing": 91
-        },
-        {
-          "time": "09:10",
-          "engagement": 100,
-          "clarity": 65,
-          "pacing": 99
-        },
-        {
-          "time": "09:20",
-          "engagement": 72,
-          "clarity": 65,
-          "pacing": 92
-        },
-        {
-          "time": "09:30",
-          "engagement": 90,
-          "clarity": 78,
-          "pacing": 96
-        },
-        {
-          "time": "09:40",
-          "engagement": 99,
-          "clarity": 82,
-          "pacing": 92
-        },
-        {
-          "time": "09:50",
-          "engagement": 89,
-          "clarity": 86,
-          "pacing": 76
-        },
-        {
-          "time": "09:60",
-          "engagement": 76,
-          "clarity": 79,
-          "pacing": 93
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "student": "Emma Thomas",
-      "date": "2026-07-17",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 77,
-          "clarity": 76,
-          "pacing": 94
-        },
-        {
-          "time": "09:10",
-          "engagement": 73,
-          "clarity": 90,
-          "pacing": 85
-        },
-        {
-          "time": "09:20",
-          "engagement": 88,
-          "clarity": 70,
-          "pacing": 85
-        },
-        {
-          "time": "09:30",
-          "engagement": 99,
-          "clarity": 73,
-          "pacing": 87
-        },
-        {
-          "time": "09:40",
-          "engagement": 80,
-          "clarity": 70,
-          "pacing": 89
-        },
-        {
-          "time": "09:50",
-          "engagement": 85,
-          "clarity": 69,
-          "pacing": 76
-        },
-        {
-          "time": "09:60",
-          "engagement": 98,
-          "clarity": 79,
-          "pacing": 77
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "student": "Sophia Miller",
-      "date": "2026-07-18",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 98,
-          "clarity": 70,
-          "pacing": 79
-        },
-        {
-          "time": "09:10",
-          "engagement": 75,
-          "clarity": 67,
-          "pacing": 77
-        },
-        {
-          "time": "09:20",
-          "engagement": 74,
-          "clarity": 90,
-          "pacing": 90
-        },
-        {
-          "time": "09:30",
-          "engagement": 95,
-          "clarity": 74,
-          "pacing": 78
-        },
-        {
-          "time": "09:40",
-          "engagement": 98,
-          "clarity": 87,
-          "pacing": 76
-        },
-        {
-          "time": "09:50",
-          "engagement": 81,
-          "clarity": 89,
-          "pacing": 100
-        },
-        {
-          "time": "09:60",
-          "engagement": 94,
-          "clarity": 65,
-          "pacing": 83
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "student": "Alice Johnson",
-      "date": "2026-07-19",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 96,
-          "clarity": 92,
-          "pacing": 75
-        },
-        {
-          "time": "09:10",
-          "engagement": 70,
-          "clarity": 72,
-          "pacing": 96
-        },
-        {
-          "time": "09:20",
-          "engagement": 96,
-          "clarity": 77,
-          "pacing": 91
-        },
-        {
-          "time": "09:30",
-          "engagement": 99,
-          "clarity": 71,
-          "pacing": 78
-        },
-        {
-          "time": "09:40",
-          "engagement": 76,
-          "clarity": 75,
-          "pacing": 97
-        },
-        {
-          "time": "09:50",
-          "engagement": 97,
-          "clarity": 90,
-          "pacing": 95
-        },
-        {
-          "time": "09:60",
-          "engagement": 100,
-          "clarity": 66,
-          "pacing": 85
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "student": "Bob Smith",
-      "date": "2026-07-20",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 70,
-          "clarity": 71,
-          "pacing": 79
-        },
-        {
-          "time": "09:10",
-          "engagement": 89,
-          "clarity": 69,
-          "pacing": 80
-        },
-        {
-          "time": "09:20",
-          "engagement": 93,
-          "clarity": 75,
-          "pacing": 94
-        },
-        {
-          "time": "09:30",
-          "engagement": 91,
-          "clarity": 75,
-          "pacing": 98
-        },
-        {
-          "time": "09:40",
-          "engagement": 82,
-          "clarity": 87,
-          "pacing": 90
-        },
-        {
-          "time": "09:50",
-          "engagement": 76,
-          "clarity": 92,
-          "pacing": 80
-        },
-        {
-          "time": "09:60",
-          "engagement": 79,
-          "clarity": 88,
-          "pacing": 75
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "student": "Charlie Brown",
-      "date": "2026-07-01",
-      "metrics": [
-        {
-          "time": "09:00",
-          "engagement": 72,
-          "clarity": 91,
-          "pacing": 76
-        },
-        {
-          "time": "09:10",
-          "engagement": 99,
-          "clarity": 76,
-          "pacing": 80
-        },
-        {
-          "time": "09:20",
-          "engagement": 83,
-          "clarity": 95,
-          "pacing": 89
-        },
-        {
-          "time": "09:30",
-          "engagement": 78,
-          "clarity": 80,
-          "pacing": 75
-        },
-        {
-          "time": "09:40",
-          "engagement": 82,
-          "clarity": 76,
-          "pacing": 77
-        },
-        {
-          "time": "09:50",
-          "engagement": 81,
-          "clarity": 72,
-          "pacing": 77
-        },
-        {
-          "time": "09:60",
-          "engagement": 76,
-          "clarity": 95,
-          "pacing": 94
-        }
-      ]
-    }
-  ]
+    ]
 }

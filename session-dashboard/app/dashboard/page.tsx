@@ -1,40 +1,42 @@
 "use client";
 
 import AuthGuard from "@/components/auth/AuthGaurd";
-import { Button } from "@/components/ui/button";
-import { useAuthStore } from "@/store/authStore";
-import { useRouter } from "next/navigation";
+import DashboardLayout from "@/components/layout/DashboardLayout";
+import StatCard from "@/components/common/StatCard";
+
 
 export default function DashboardPage() {
-    const router = useRouter();
-
-    const { username, logout } = useAuthStore();
-
-    const handleLogout = () => {
-        logout();
-        router.replace("/login");
-    };
 
     return (
+
         <AuthGuard>
-            <main className="p-8">
-                <div className="flex justify-between items-center">
-                    <h1 className="text-3xl font-bold">
-                        Dashboard
-                    </h1>
-
-                    <Button
-                        variant="destructive"
-                        onClick={handleLogout}
-                    >
-                        Logout
-                    </Button>
+            <DashboardLayout>
+                <div className="space-y-6">
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            Dashboard
+                        </h2>
+                        <p className="text-muted-foreground">
+                            Monitor student session evaluations.
+                        </p>
+                    </div>
+                    <div className="grid gap-4 md:grid-cols-3">
+                        <StatCard
+                            title="Total Sessions"
+                            value="20"
+                        />
+                        <StatCard
+                            title="Average Engagement"
+                            value="85%"
+                        />
+                        <StatCard
+                            title="Students"
+                            value="6"
+                        />
+                    </div>
                 </div>
-
-                <p className="mt-6">
-                    Welcome, <strong>{username}</strong>
-                </p>
-            </main>
+            </DashboardLayout>
         </AuthGuard>
+
     );
 }

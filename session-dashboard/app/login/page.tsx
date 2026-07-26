@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { useAuthStore } from "@/store/authStore";
+import { useEffect } from "react";
 
 export default function LoginPage() {
     const router = useRouter();
@@ -15,6 +16,16 @@ export default function LoginPage() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
+
+    const isAuthenticated = useAuthStore(
+        (state) => state.isAuthenticated
+    );
+
+    useEffect(() => {
+        if (isAuthenticated) {
+            router.replace("/dashboard");
+        }
+    }, [isAuthenticated, router]);
 
     const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();

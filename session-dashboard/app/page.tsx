@@ -2,13 +2,20 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { useAuthStore } from "@/store/authStore";
 
-export default function Home() {
+export default function HomePage() {
   const router = useRouter();
 
+  const isAuthenticated = useAuthStore(
+    (state) => state.isAuthenticated
+  );
+
   useEffect(() => {
-    router.replace("/login");
-  }, [router]);
+    router.replace(
+      isAuthenticated ? "/dashboard" : "/login"
+    );
+  }, [isAuthenticated, router]);
 
   return null;
 }

@@ -6,6 +6,10 @@ import { useSession } from "@/hooks/useSession";
 import StatCard from "@/components/common/StatCard";
 import MetricsChart from "@/components/session/MetricsChart";
 import ChartEmptyState from "@/components/common/ChartEmptyState";
+import LoadingState from "@/components/common/LoadingState";
+import ErrorState from "@/components/common/ErrorState";
+import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 
 
@@ -19,6 +23,7 @@ export default function SessionDetailPage() {
         isLoading,
         error,
     } = useSession(id);
+    const router = useRouter();
 
 
 
@@ -26,9 +31,7 @@ export default function SessionDetailPage() {
         return (
             <AuthGuard>
                 <DashboardLayout>
-                    <p>
-                        Loading session...
-                    </p>
+                    <LoadingState />
                 </DashboardLayout>
             </AuthGuard>
         );
@@ -40,9 +43,9 @@ export default function SessionDetailPage() {
         return (
             <AuthGuard>
                 <DashboardLayout>
-                    <p className="text-red-500">
-                        Session not found.
-                    </p>
+                    <ErrorState
+                        message="Session not found."
+                    />
                 </DashboardLayout>
             </AuthGuard>
         );
@@ -93,15 +96,23 @@ export default function SessionDetailPage() {
         <AuthGuard>
             <DashboardLayout>
                 <div className="space-y-6">
-                    <div>
-                        <h1 className="text-3xl font-bold">
-                            {session.student}
-                        </h1>
-                        <p className="text-muted-foreground">
-                            Session Date:
-                            {" "}
-                            {session.date}
-                        </p>
+                    <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                        <div className="md:text-left">
+                            <h1 className="text-3xl font-bold">
+                                {session.student}
+                            </h1>
+                            <p className="text-muted-foreground">
+                                Session Date:
+                                {" "}
+                                {session.date}
+                            </p>
+                        </div>
+                        <Button
+                            variant="outline"
+                            onClick={() => router.back()}
+                        >
+                            ← Back to Sessions
+                        </Button>
                     </div>
 
                     <div className="grid gap-4 md:grid-cols-3">

@@ -9,6 +9,8 @@ import { useSessions } from "@/hooks/useSessions";
 import { useState } from "react";
 import SessionFilters from "@/components/session/SessionFilters";
 import EmptyState from "@/components/common/EmptyState";
+import LoadingState from "@/components/common/LoadingState";
+import ErrorState from "@/components/common/ErrorState";
 
 
 export default function DashboardPage() {
@@ -62,9 +64,7 @@ export default function DashboardPage() {
         return (
             <AuthGuard>
                 <DashboardLayout>
-                    <p>
-                        Loading sessions...
-                    </p>
+                    <LoadingState />
                 </DashboardLayout>
             </AuthGuard>
         );
@@ -76,9 +76,9 @@ export default function DashboardPage() {
         return (
             <AuthGuard>
                 <DashboardLayout>
-                    <p className="text-red-500">
-                        Failed to load sessions.
-                    </p>
+                    <ErrorState
+                        message="Failed to load session data."
+                    />
                 </DashboardLayout>
             </AuthGuard>
         );
